@@ -1,0 +1,184 @@
+@import "mixin";
+
+.header {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+
+  .section-1 {
+    width: 100%;
+    height: 100px;
+
+    .drop {
+      float: left;
+      margin-left: 30px;
+      position: relative;
+      height: 100px;
+
+      .drop1 {
+        width: 30px;
+        height: 50px;
+        background-color: #4DA0B0;
+        border-radius: 0px 0px 15px 15px;
+        background: linear-gradient(-45deg, #6b63b6, #b362bd);
+        float: left;
+      }
+
+      .drop2 {
+        width: 30px;
+        height: 60px;
+        background-color: #4DA0B0;
+        border-radius: 0px 0px 15px 15px;
+        background: linear-gradient(180deg, #9c62bb, #b362bd);
+        float: left;
+      }
+
+      .drop3 {
+        width: 30px;
+        height: 80px;
+        background-color: #4DA0B0;
+        border-radius: 0px 0px 15px 15px;
+        background: linear-gradient(-45deg, #7862b7, #b362bd);
+        float: left;
+      }
+
+      .drop4 {
+        width: 30px;
+        height: 40px;
+        background-color: #4DA0B0;
+        border-radius: 0px 0px 15px 15px;
+        background: linear-gradient(180deg, #9c62bb, #b362bd);
+        float: left;
+      }
+  }
+
+    .logo {
+      width: 100px;
+      height: 50px;
+      background-color: rgba(12, 215, 224, 0.46);
+      float: right;
+    }
+  }
+
+  .section-2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+
+    .slogan {
+      width: 500px;
+      height: auto;
+      position: relative;
+      margin-left: 20px;
+      font-family: 'Open Sans';
+      float: left;
+
+      .slogan-header {
+        color: #ffffff;
+        font-size: 2em;
+        font-weight: bold;
+      }
+
+      .slogan-content {
+        font-size: 1.3em;
+        font-weight: bold;
+        color: rgba(229, 229, 229, 0.4);
+
+      }
+    }
+
+    .photo-wrapper {
+      width: 100px;
+      height: 100px;
+      background-color: #ffffff;
+      position: absolute;
+      border-radius: 50px;
+      bottom: -50px;
+      left: 30px;
+      overflow: hidden;
+
+      .photo {
+        width: 96px;
+        height: 96px;
+        background-color: #f57080;
+        margin: 2px 0 0 2px;
+        border-radius: 48px;
+        overflow: hidden;
+
+        .selfie {
+          width: 92px;
+          height: 92px;
+          margin: 2px 0 0 2px;
+          border-radius: 46px;
+          //background-image: url("../static/hughjackman.jpg");
+        }
+      }
+    }
+
+    .about-me {
+      position: relative;
+      width: 320px;
+      height: 400px;
+      margin-right: 20px;
+      margin-top: 30px;
+      float: right;
+      z-index: 100;
+      border-radius: 0.5em;
+      box-shadow: 0 12px 30px rgba(0,0,0,.4);
+
+      .about-me-header {
+        width: 100%;
+        height: 170px;
+        background: #ffffff;
+        overflow: auto;
+        border-radius: 0.5em 0.5em 0.0em 0.0em;
+
+        .about-me-header-text-1 {
+          width: 100%;
+          color: #f57080;
+          margin: auto;
+          margin-top: 0.5em;
+          margin-bottom: 0.2em;
+          font-family: 'Pacifico';
+          text-align: center;
+          font-size: 1.6em;
+          font-weight: bold;
+        }
+
+        .about-me-header-text-2 {
+          color: #343434;
+          margin: 0.2em 1em 1em 1em;
+          font-family: 'Source Sans Pro';
+          font-size: 13px;
+          font-weight: bold;
+          line-height: 140%;
+        }
+      }
+
+      .about-me-content {
+        width: 100%;
+        height: 230px;
+        background: #343434;
+        overflow: hidden;
+
+        .about-me-content-text-1 {
+          color: #b7b7b7;
+          line-height: 150%;
+          padding: 0.2em 1em 1em 2.5em;
+          font-size: 13px;
+          font-family: 'Source Sans Pro';
+
+          .about-me-content-link {
+            text-decoration: none;
+            cursor: pointer;
+            color: #f57080;
+            text-decoration-color: #f57080;
+          }
+        }
+      }
+    }
+
+  }
+
+}

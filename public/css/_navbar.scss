@@ -1,0 +1,313 @@
+$animation-enter-duration: 300ms;
+$animation-leave-duration: 150ms;
+$animation-before-opacity: 0.4;
+$animation-after-opacity: 0.8;
+
+
+.navbar {
+  position: fixed;
+  top: 30px;
+  right: 0px;
+  z-index: 100;
+  width: 100px;
+  height: 120px;
+
+  .logo-bar {
+    width: 100px;
+    height: 70px;
+
+    .box {
+      margin: auto;
+      width: 20px;
+      height: 8px;
+    }
+
+    .smaller-box-enter {
+      margin: auto;
+      width: 50px;
+      height: 8px;
+      animation-name: smaller-box-enter-animation;
+      animation-duration: $animation-enter-duration;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes smaller-box-enter-animation {
+      100% {
+        height: 6px;
+      }
+    }
+
+    .smaller-box-leave {
+      margin: auto;
+      height: 6px;
+      animation-name: smaller-box-leave-animation;
+      animation-duration: $animation-leave-duration;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes smaller-box-leave-animation {
+      100% {
+        height: 8px;
+      }
+    }
+
+    // github animation
+
+    .github {
+      display: block;
+      margin: auto;
+      width: 17px;
+      height: 17px;
+      opacity: $animation-before-opacity;
+    }
+
+    .bigger-github-enter {
+      display: block;
+      margin: auto;
+      width: 17px;
+      height: 17px;
+      opacity: $animation-before-opacity;
+      animation-name: bigger-github-enter-animation;
+      animation-duration: $animation-enter-duration;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes bigger-github-enter-animation {
+      100% {
+        margin: auto;
+        width: 21px;
+        height: 21px;
+        opacity: $animation-after-opacity;
+      }
+    }
+
+    .bigger-github-leave {
+      display: block;
+      margin: auto;
+      width: 21px;
+      height: 21px;
+      opacity: $animation-after-opacity;
+      animation-name: bigger-github-leave-animation;
+      animation-duration: $animation-leave-duration;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes bigger-github-leave-animation {
+      100% {
+        margin: auto;
+        width: 17px;
+        height: 17px;
+        opacity: $animation-before-opacity;
+      }
+    }
+
+    // linkedin animation
+
+    .linkedin {
+      display: block;
+      margin: auto;
+      width: 17px;
+      height: 17px;
+      opacity: $animation-before-opacity;
+    }
+
+    .bigger-linkedin-enter {
+      display: block;
+      margin: auto;
+      width: 17px;
+      height: 17px;
+      opacity: $animation-before-opacity;
+      animation-name: bigger-linkedin-enter-animation;
+      animation-duration: $animation-enter-duration;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes bigger-linkedin-enter-animation {
+      100% {
+        margin: auto;
+        width: 21px;
+        height: 21px;
+        opacity: $animation-after-opacity;
+      }
+    }
+
+    .bigger-linkedin-leave {
+      display: block;
+      margin: auto;
+      width: 21px;
+      height: 21px;
+      opacity: $animation-after-opacity;
+      animation-name: bigger-linkedin-leave-animation;
+      animation-duration: $animation-leave-duration;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes bigger-linkedin-leave-animation {
+      100% {
+        margin: auto;
+        width: 17px;
+        height: 17px;
+        opacity: $animation-before-opacity;
+      }
+    }
+
+  }
+
+  // circle animation
+
+  .circle {
+       border: 1px solid #ffffff;
+       border-radius: 50%;
+       height: 13px;
+       width: 13px;
+       margin: auto;
+       opacity: $animation-before-opacity;
+       box-shadow: inset 0 0 1px #ffffff, 0 0 1px #ffffff;
+     }
+
+  .bigger-circle-enter {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    margin: auto;
+    opacity: $animation-before-opacity;
+    box-shadow: inset 0 0 1px #ffffff, 0 0 1px #ffffff;
+    animation-name: bigger-circle-enter-animation;
+    animation-duration: $animation-enter-duration;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes bigger-circle-enter-animation {
+    100% {
+      width: 17px;
+      height: 17px;
+      border: 2px solid #ffffff;
+      opacity: $animation-after-opacity;
+    }
+  }
+
+  .bigger-circle-leave {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    margin: auto;
+    opacity: $animation-after-opacity;
+    box-shadow: inset 0 0 1px #ffffff, 0 0 2px #ffffff;
+    animation-name: bigger-circle-leave-animation;
+    animation-duration: $animation-leave-duration;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes bigger-circle-leave-animation {
+    100% {
+      width: 13px;
+      height: 13px;
+      border: 1px solid #ffffff;
+      opacity: $animation-before-opacity;
+    }
+  }
+  .selected-circle {
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: auto;
+    opacity: 0.3;
+    box-shadow: inset 0 0 1px #ffffff, 0 0 1px #ffffff;
+  }
+
+  // line animation
+
+  .line {
+    width: 1px;
+    height: 15px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    opacity: $animation-before-opacity;
+  }
+
+  .shorter-line-enter {
+    width: 1px;
+    height: 15px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    opacity: $animation-before-opacity;
+    animation-name: shorter-line-enter-animation;
+    animation-duration: $animation-enter-duration;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes shorter-line-enter-animation {
+    100% {
+      height: 12px;
+    }
+  }
+
+  .shorter-line-leave {
+    width: 1px;
+    height: 12px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    opacity: $animation-before-opacity;
+    animation-name: shorter-line-leave-animation;
+    animation-duration: $animation-leave-duration;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes shorter-line-leave-animation {
+    100% {
+      height: 15px;
+    }
+  }
+
+  .edge-line {
+    width: 1px;
+    height: 7px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    opacity: $animation-before-opacity;
+  }
+
+  .shorter-edge-line-enter {
+    width: 1px;
+    height: 7px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    opacity: $animation-before-opacity;
+    animation-name: shorter-edge-line-enter-animation;
+    animation-duration: $animation-enter-duration;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes shorter-edge-line-enter-animation {
+    100% {
+      height: 4px;
+    }
+  }
+
+  .shorter-edge-line-leave {
+    width: 1px;
+    height: 4px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    opacity: $animation-before-opacity;
+    animation-name: shorter-edge-line-leave-animation;
+    animation-duration: $animation-leave-duration;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes shorter-edge-line-leave-animation {
+    100% {
+      height: 7px;
+    }
+  }
+
+}

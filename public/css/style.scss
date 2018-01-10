@@ -1,0 +1,19 @@
+@import "mixin";
+@import "page1";
+@import "page2";
+@import "page3";
+@import "page4";
+@import "navbar";
+@import "header";
+@import "footer";
+@import "app";
+@import "layout";
+@import "favicon";
+
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}

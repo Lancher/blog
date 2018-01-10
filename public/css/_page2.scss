@@ -1,0 +1,6 @@
+@import "mixin";
+
+.page2 {
+  @include gradient(#CB356B, #BD3F32);
+  @include page();
+}

@@ -1,0 +1,163 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app_wrapper {
+    width: 100%;
+    height: 50vh;
+    background-color: #9d2e45;
+}
+
+.app {
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: #9c62bb;
+}
+
+.app .h {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background-color: bisque;
+}
+
+.app .h .a {
+    width: 100%;
+    height: 100px;
+}
+
+.app .h .a .a1{
+    width: 200px;
+    height: 100px;
+    background-color: #f83600;
+    float: left;
+}
+
+.app .h .a .a2{
+    width: 100px;
+    height: 50px;
+    background-color: #e8f839;
+    float: right;
+}
+
+.app .h .b {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 170px;
+    background-color: #4164b2;
+}
+
+.app .h .b .b1{
+    width: 500px;
+    height: 150px;
+    position: relative;
+    margin-left: 20px;
+    background-color: rgba(224, 33, 51, 0.5);
+    float: left;
+}
+
+.app .h .b .b2{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    margin-right: 20px;
+    background: rgba(224, 207, 10, 0.5);
+    float: right;
+    z-index: 100;
+}
+
+.app .f {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background-color: rgba(89, 87, 88, 0.3);
+}
+
+.app .f .a {
+    width: 500px;
+    height: 100px;
+    margin-left: 20px;
+    background-color: #f83600;
+    color: #000000;
+}
+
+.app .f .b {
+    width: 350px;
+    height: 100px;
+    margin-left: 20px;
+    background-color: #4fb8f8;
+    color: #000000;
+}
+
+.app .f .c {
+    position: absolute;
+    margin-left: 20px;
+    width: 80%;
+    bottom: 0px;
+    height: 50px;
+    background-color: #f845f3;
+    color: #000000;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .app {
+        background-color: #103462;
+    }
+
+    .app .h .b {
+        height: 320px;
+    }
+
+    .app .h .b .b1 {
+        position: relative;
+        float: none;
+        width: 90%;
+        margin: auto;
+    }
+
+    .app .h .b .b2 {
+        position: relative;
+        float: none;
+        margin: auto;
+    }
+
+    .app .f .a {
+        margin: auto;
+        width: 80%;
+        margin-top: 320px;
+    }
+
+    .app .f .b {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .app .f .c {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .app {
+        width: 960px;
+        background-color: #83e691;
+    }
+}
+
+@media only screen and  (min-width: 760px) and (max-width: 860px) {
+    .app .h .b .b1 {
+        width: calc(100% - 20px - 20px - 320px);
+    }
+
+    .app .f .a {
+        width: calc(100% - 20px - 20px - 320px);
+    }
+}

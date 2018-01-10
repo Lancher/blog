@@ -1,0 +1,191 @@
+
+@media only screen and (max-width: 540px) {
+  .header {
+
+    .section-2 {
+
+      .slogan {
+
+        .slogan-header {
+          font-size: 1.4em;
+        }
+
+        .slogan-content {
+          font-size: 1.0em;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) and (min-height: 950px) {
+
+  .app_wrapper {
+    height: calc(50vh + 100px);
+  }
+
+  .header {
+    height: calc(50vh + 100px);;
+
+    .section-2 {
+      height: 440px;
+
+      .slogan {
+        position: relative;
+        float: none;
+        width: 90%;
+        margin: auto;
+
+        .slogan-header {
+          text-align: center;
+        }
+
+        .slogan-content {
+          text-align: center;
+        }
+      }
+
+      .photo-wrapper {
+        position: relative;
+        margin: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 40px;
+      }
+
+      .about-me {
+        position: absolute;
+        float: none;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: -230px;
+      }
+    }
+  }
+
+  .footer {
+    overflow: visible;
+
+    .more-link-intro {
+      height: auto;
+      margin: auto;
+      width: 80%;
+      margin-top: 290px;
+      text-align: center;
+    }
+
+    .more-link-content {
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 50px;
+    }
+
+    .copyright {
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) and (max-height: 1000px) {
+  .app_wrapper {
+    height: 650px;
+  }
+
+  .header {
+    height: 650px;
+
+    .section-2 {
+      height: 440px;
+
+      .slogan {
+        position: relative;
+        float: none;
+        width: 90%;
+        margin: auto;
+
+        .slogan-header {
+          text-align: center;
+        }
+
+        .slogan-content {
+          text-align: center;
+        }
+      }
+
+      .photo-wrapper {
+        position: relative;
+        margin: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 40px;
+      }
+
+      .about-me {
+        position: absolute;
+        float: none;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: -230px;
+      }
+    }
+  }
+
+  .footer {
+    overflow: visible;
+
+    .more-link-intro {
+      height: auto;
+      margin: auto;
+      width: 80%;
+      margin-top: 290px;
+      text-align: center;
+    }
+
+    .more-link-content {
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 50px;
+    }
+
+    .copyright {
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .app {
+    width: 960px;
+  }
+}
+
+@media only screen and  (min-width: 760px) and (max-width: 860px) {
+
+  .header {
+    .section-2 {
+
+      .slogan {
+        width: calc(100% - 20px - 20px - 320px);
+      }
+    }
+  }
+
+  .footer {
+    .more-link-intro {
+      width: calc(100% - 20px - 20px - 320px);
+    }
+
+  }
+}

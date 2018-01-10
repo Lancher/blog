@@ -1,0 +1,6 @@
+@import "mixin";
+
+.page4 {
+  @include gradient(#4DA0B0, #D39D38);
+  @include page();
+}
