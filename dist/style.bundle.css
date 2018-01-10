@@ -1,0 +1,676 @@
+.page1 {
+  /* fallback for old browsers */
+  background: #43cea2;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #43cea2, #185a9d);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.page2 {
+  /* fallback for old browsers */
+  background: #CB356B;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #CB356B, #BD3F32);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #CB356B, #BD3F32);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.page3 {
+  /* fallback for old browsers */
+  background: #fe8c00;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #fe8c00, #f83600);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #fe8c00, #f83600);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.page4 {
+  /* fallback for old browsers */
+  background: #4DA0B0;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #4DA0B0, #D39D38);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #4DA0B0, #D39D38);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.navbar {
+  position: fixed;
+  top: 30px;
+  right: 0px;
+  z-index: 100;
+  width: 100px;
+  height: 120px; }
+  .navbar .logo-bar {
+    width: 100px;
+    height: 70px; }
+    .navbar .logo-bar .box {
+      margin: auto;
+      width: 20px;
+      height: 8px; }
+    .navbar .logo-bar .smaller-box-enter {
+      margin: auto;
+      width: 50px;
+      height: 8px;
+      animation-name: smaller-box-enter-animation;
+      animation-duration: 300ms;
+      animation-fill-mode: forwards; }
+
+@keyframes smaller-box-enter-animation {
+  100% {
+    height: 6px; } }
+    .navbar .logo-bar .smaller-box-leave {
+      margin: auto;
+      height: 6px;
+      animation-name: smaller-box-leave-animation;
+      animation-duration: 150ms;
+      animation-fill-mode: forwards; }
+
+@keyframes smaller-box-leave-animation {
+  100% {
+    height: 8px; } }
+    .navbar .logo-bar .github {
+      display: block;
+      margin: auto;
+      width: 17px;
+      height: 17px;
+      opacity: 0.4; }
+    .navbar .logo-bar .bigger-github-enter {
+      display: block;
+      margin: auto;
+      width: 17px;
+      height: 17px;
+      opacity: 0.4;
+      animation-name: bigger-github-enter-animation;
+      animation-duration: 300ms;
+      animation-fill-mode: forwards; }
+
+@keyframes bigger-github-enter-animation {
+  100% {
+    margin: auto;
+    width: 21px;
+    height: 21px;
+    opacity: 0.8; } }
+    .navbar .logo-bar .bigger-github-leave {
+      display: block;
+      margin: auto;
+      width: 21px;
+      height: 21px;
+      opacity: 0.8;
+      animation-name: bigger-github-leave-animation;
+      animation-duration: 150ms;
+      animation-fill-mode: forwards; }
+
+@keyframes bigger-github-leave-animation {
+  100% {
+    margin: auto;
+    width: 17px;
+    height: 17px;
+    opacity: 0.4; } }
+    .navbar .logo-bar .linkedin {
+      display: block;
+      margin: auto;
+      width: 17px;
+      height: 17px;
+      opacity: 0.4; }
+    .navbar .logo-bar .bigger-linkedin-enter {
+      display: block;
+      margin: auto;
+      width: 17px;
+      height: 17px;
+      opacity: 0.4;
+      animation-name: bigger-linkedin-enter-animation;
+      animation-duration: 300ms;
+      animation-fill-mode: forwards; }
+
+@keyframes bigger-linkedin-enter-animation {
+  100% {
+    margin: auto;
+    width: 21px;
+    height: 21px;
+    opacity: 0.8; } }
+    .navbar .logo-bar .bigger-linkedin-leave {
+      display: block;
+      margin: auto;
+      width: 21px;
+      height: 21px;
+      opacity: 0.8;
+      animation-name: bigger-linkedin-leave-animation;
+      animation-duration: 150ms;
+      animation-fill-mode: forwards; }
+
+@keyframes bigger-linkedin-leave-animation {
+  100% {
+    margin: auto;
+    width: 17px;
+    height: 17px;
+    opacity: 0.4; } }
+  .navbar .circle {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    margin: auto;
+    opacity: 0.4;
+    box-shadow: inset 0 0 1px #ffffff, 0 0 1px #ffffff; }
+  .navbar .bigger-circle-enter {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    margin: auto;
+    opacity: 0.4;
+    box-shadow: inset 0 0 1px #ffffff, 0 0 1px #ffffff;
+    animation-name: bigger-circle-enter-animation;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards; }
+
+@keyframes bigger-circle-enter-animation {
+  100% {
+    width: 17px;
+    height: 17px;
+    border: 2px solid #ffffff;
+    opacity: 0.8; } }
+  .navbar .bigger-circle-leave {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    margin: auto;
+    opacity: 0.8;
+    box-shadow: inset 0 0 1px #ffffff, 0 0 2px #ffffff;
+    animation-name: bigger-circle-leave-animation;
+    animation-duration: 150ms;
+    animation-fill-mode: forwards; }
+
+@keyframes bigger-circle-leave-animation {
+  100% {
+    width: 13px;
+    height: 13px;
+    border: 1px solid #ffffff;
+    opacity: 0.4; } }
+  .navbar .selected-circle {
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: auto;
+    opacity: 0.3;
+    box-shadow: inset 0 0 1px #ffffff, 0 0 1px #ffffff; }
+  .navbar .line {
+    width: 1px;
+    height: 15px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    opacity: 0.4; }
+  .navbar .shorter-line-enter {
+    width: 1px;
+    height: 15px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    opacity: 0.4;
+    animation-name: shorter-line-enter-animation;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards; }
+
+@keyframes shorter-line-enter-animation {
+  100% {
+    height: 12px; } }
+  .navbar .shorter-line-leave {
+    width: 1px;
+    height: 12px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    opacity: 0.4;
+    animation-name: shorter-line-leave-animation;
+    animation-duration: 150ms;
+    animation-fill-mode: forwards; }
+
+@keyframes shorter-line-leave-animation {
+  100% {
+    height: 15px; } }
+  .navbar .edge-line {
+    width: 1px;
+    height: 7px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    opacity: 0.4; }
+  .navbar .shorter-edge-line-enter {
+    width: 1px;
+    height: 7px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    opacity: 0.4;
+    animation-name: shorter-edge-line-enter-animation;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards; }
+
+@keyframes shorter-edge-line-enter-animation {
+  100% {
+    height: 4px; } }
+  .navbar .shorter-edge-line-leave {
+    width: 1px;
+    height: 4px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    opacity: 0.4;
+    animation-name: shorter-edge-line-leave-animation;
+    animation-duration: 150ms;
+    animation-fill-mode: forwards; }
+
+@keyframes shorter-edge-line-leave-animation {
+  100% {
+    height: 7px; } }
+
+.header {
+  width: 100%;
+  height: 50vh;
+  position: relative; }
+  .header .section-1 {
+    width: 100%;
+    height: 100px; }
+    .header .section-1 .drop {
+      float: left;
+      margin-left: 30px;
+      position: relative;
+      height: 100px; }
+      .header .section-1 .drop .drop1 {
+        width: 30px;
+        height: 50px;
+        background-color: #4DA0B0;
+        border-radius: 0px 0px 15px 15px;
+        background: linear-gradient(-45deg, #6b63b6, #b362bd);
+        float: left; }
+      .header .section-1 .drop .drop2 {
+        width: 30px;
+        height: 60px;
+        background-color: #4DA0B0;
+        border-radius: 0px 0px 15px 15px;
+        background: linear-gradient(180deg, #9c62bb, #b362bd);
+        float: left; }
+      .header .section-1 .drop .drop3 {
+        width: 30px;
+        height: 80px;
+        background-color: #4DA0B0;
+        border-radius: 0px 0px 15px 15px;
+        background: linear-gradient(-45deg, #7862b7, #b362bd);
+        float: left; }
+      .header .section-1 .drop .drop4 {
+        width: 30px;
+        height: 40px;
+        background-color: #4DA0B0;
+        border-radius: 0px 0px 15px 15px;
+        background: linear-gradient(180deg, #9c62bb, #b362bd);
+        float: left; }
+    .header .section-1 .logo {
+      width: 100px;
+      height: 50px;
+      background-color: rgba(12, 215, 224, 0.46);
+      float: right; }
+  .header .section-2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px; }
+    .header .section-2 .slogan {
+      width: 500px;
+      height: auto;
+      position: relative;
+      margin-left: 20px;
+      font-family: 'Open Sans';
+      float: left; }
+      .header .section-2 .slogan .slogan-header {
+        color: #ffffff;
+        font-size: 2em;
+        font-weight: bold; }
+      .header .section-2 .slogan .slogan-content {
+        font-size: 1.3em;
+        font-weight: bold;
+        color: rgba(229, 229, 229, 0.4); }
+    .header .section-2 .photo-wrapper {
+      width: 100px;
+      height: 100px;
+      background-color: #ffffff;
+      position: absolute;
+      border-radius: 50px;
+      bottom: -50px;
+      left: 30px;
+      overflow: hidden; }
+      .header .section-2 .photo-wrapper .photo {
+        width: 96px;
+        height: 96px;
+        background-color: #f57080;
+        margin: 2px 0 0 2px;
+        border-radius: 48px;
+        overflow: hidden; }
+        .header .section-2 .photo-wrapper .photo .selfie {
+          width: 92px;
+          height: 92px;
+          margin: 2px 0 0 2px;
+          border-radius: 46px; }
+    .header .section-2 .about-me {
+      position: relative;
+      width: 320px;
+      height: 400px;
+      margin-right: 20px;
+      margin-top: 30px;
+      float: right;
+      z-index: 100;
+      border-radius: 0.5em;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4); }
+      .header .section-2 .about-me .about-me-header {
+        width: 100%;
+        height: 170px;
+        background: #ffffff;
+        overflow: auto;
+        border-radius: 0.5em 0.5em 0.0em 0.0em; }
+        .header .section-2 .about-me .about-me-header .about-me-header-text-1 {
+          width: 100%;
+          color: #f57080;
+          margin: auto;
+          margin-top: 0.5em;
+          margin-bottom: 0.2em;
+          font-family: 'Pacifico';
+          text-align: center;
+          font-size: 1.6em;
+          font-weight: bold; }
+        .header .section-2 .about-me .about-me-header .about-me-header-text-2 {
+          color: #343434;
+          margin: 0.2em 1em 1em 1em;
+          font-family: 'Source Sans Pro';
+          font-size: 13px;
+          font-weight: bold;
+          line-height: 140%; }
+      .header .section-2 .about-me .about-me-content {
+        width: 100%;
+        height: 230px;
+        background: #343434;
+        overflow: hidden; }
+        .header .section-2 .about-me .about-me-content .about-me-content-text-1 {
+          color: #b7b7b7;
+          line-height: 150%;
+          padding: 0.2em 1em 1em 2.5em;
+          font-size: 13px;
+          font-family: 'Source Sans Pro'; }
+          .header .section-2 .about-me .about-me-content .about-me-content-text-1 .about-me-content-link {
+            text-decoration: none;
+            cursor: pointer;
+            color: #f57080;
+            text-decoration-color: #f57080; }
+
+.footer {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow: hidden; }
+  .footer .more-link-intro {
+    width: 500px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-family: 'Source Sans Pro';
+    line-height: 160%;
+    font-size: 16px;
+    color: #343434; }
+  .footer .more-link-content {
+    width: 352px;
+    height: 100px;
+    margin-top: 20px; }
+    .footer .more-link-content .logo-circle-wrapper {
+      position: relative;
+      width: 64px;
+      height: 64px;
+      border-radius: 32px;
+      overflow: hidden;
+      background-color: #a651ff;
+      float: left;
+      margin-left: 20px; }
+      .footer .more-link-content .logo-circle-wrapper .logo-circle {
+        width: 60px;
+        height: 60px;
+        margin: auto;
+        margin-top: 2px;
+        border-radius: 30px;
+        background-color: #ffffff; }
+        .footer .more-link-content .logo-circle-wrapper .logo-circle .logo-circle-github {
+          margin: 20px 0 0 20px; }
+        .footer .more-link-content .logo-circle-wrapper .logo-circle .logo-circle-resume {
+          width: 60px;
+          height: 60px;
+          font-size: 14px;
+          text-align: center;
+          line-height: 60px;
+          font-family: 'VT323';
+          color: #343434; }
+        .footer .more-link-content .logo-circle-wrapper .logo-circle .logo-circle-linkedin {
+          margin: 19px 0 0 20px; }
+        .footer .more-link-content .logo-circle-wrapper .logo-circle .logo-circle-mail {
+          margin: 18px 0 0 18px; }
+  .footer .link-style {
+    text-decoration: none;
+    cursor: pointer; }
+  .footer .copyright {
+    position: absolute;
+    margin-left: 20px;
+    width: 80%;
+    bottom: 0px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    color: #cfcfcf; }
+
+.app_wrapper {
+  width: 100vw;
+  height: 50vh;
+  background-image: radial-gradient(farthest-corner at -10% 10%, #CF62C0 5%, #4164b2 100%); }
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  margin: auto; }
+
+@media only screen and (max-width: 540px) {
+  .header .section-2 .slogan .slogan-header {
+    font-size: 1.4em; }
+  .header .section-2 .slogan .slogan-content {
+    font-size: 1.0em; } }
+
+@media only screen and (max-width: 760px) and (min-height: 950px) {
+  .app_wrapper {
+    height: calc(50vh + 100px); }
+  .header {
+    height: calc(50vh + 100px); }
+    .header .section-2 {
+      height: 440px; }
+      .header .section-2 .slogan {
+        position: relative;
+        float: none;
+        width: 90%;
+        margin: auto; }
+        .header .section-2 .slogan .slogan-header {
+          text-align: center; }
+        .header .section-2 .slogan .slogan-content {
+          text-align: center; }
+      .header .section-2 .photo-wrapper {
+        position: relative;
+        margin: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 40px; }
+      .header .section-2 .about-me {
+        position: absolute;
+        float: none;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: -230px; }
+  .footer {
+    overflow: visible; }
+    .footer .more-link-intro {
+      height: auto;
+      margin: auto;
+      width: 80%;
+      margin-top: 290px;
+      text-align: center; }
+    .footer .more-link-content {
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 50px; }
+    .footer .copyright {
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0; } }
+
+@media only screen and (max-width: 760px) and (max-height: 1000px) {
+  .app_wrapper {
+    height: 650px; }
+  .header {
+    height: 650px; }
+    .header .section-2 {
+      height: 440px; }
+      .header .section-2 .slogan {
+        position: relative;
+        float: none;
+        width: 90%;
+        margin: auto; }
+        .header .section-2 .slogan .slogan-header {
+          text-align: center; }
+        .header .section-2 .slogan .slogan-content {
+          text-align: center; }
+      .header .section-2 .photo-wrapper {
+        position: relative;
+        margin: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 40px; }
+      .header .section-2 .about-me {
+        position: absolute;
+        float: none;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: -230px; }
+  .footer {
+    overflow: visible; }
+    .footer .more-link-intro {
+      height: auto;
+      margin: auto;
+      width: 80%;
+      margin-top: 290px;
+      text-align: center; }
+    .footer .more-link-content {
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 50px; }
+    .footer .copyright {
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0; } }
+
+@media only screen and (min-width: 960px) {
+  .app {
+    width: 960px; } }
+
+@media only screen and (min-width: 760px) and (max-width: 860px) {
+  .header .section-2 .slogan {
+    width: calc(100% - 20px - 20px - 320px); }
+  .footer .more-link-intro {
+    width: calc(100% - 20px - 20px - 320px); } }
+
+.favicon {
+  background-image: url(favicon.ico); }
+
+.favicon-16 {
+  background-image: url(favicon-16x16.png); }
+
+.favicon-32 {
+  background-image: url(favicon-32x32.png); }
+
+.favicon-96 {
+  background-image: url(favicon-96x96.png); }
+
+.favicon-128 {
+  background-image: url(favicon-128.png); }
+
+.favicon-196 {
+  background-image: url(favicon-196x196.png); }
+
+.favicon-apple-touch-icon-57 {
+  background-image: url(apple-touch-icon-57x57.png); }
+
+.favicon-apple-touch-icon-60 {
+  background-image: url(apple-touch-icon-60x60.png); }
+
+.favicon-apple-touch-icon-72 {
+  background-image: url(apple-touch-icon-72x72.png); }
+
+.favicon-apple-touch-icon-76 {
+  background-image: url(apple-touch-icon-72x72.png); }
+
+.favicon-apple-touch-icon-114 {
+  background-image: url(apple-touch-icon-114x114.png); }
+
+.favicon-apple-touch-icon-120 {
+  background-image: url(apple-touch-icon-120x120.png); }
+
+.favicon-apple-touch-icon-144 {
+  background-image: url(apple-touch-icon-144x144.png); }
+
+.favicon-mstile-70 {
+  background-image: url(mstile-70x70.png); }
+
+.favicon-mstile-144 {
+  background-image: url(mstile-144x144.png); }
+
+.favicon-mstile-155 {
+  background-image: url(mstile-150x150.png); }
+
+.favicon-mstile-310-150 {
+  background-image: url(mstile-310x150.png); }
+
+.favicon-mstile-310 {
+  background-image: url(mstile-310x310.png); }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
