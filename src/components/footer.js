@@ -51,7 +51,7 @@ export default class FooterComponent extends React.Component {
                     </a>
                 </div>
                 <div className="copyright">
-                    Copyright @ shihao-liu
+                   Copyright @ shihao-liu · Powered by React.js
                 </div>
 
             </div>

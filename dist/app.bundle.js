@@ -24119,7 +24119,7 @@ var HeaderComponent = function (_React$Component) {
                                 _react2.default.createElement(
                                     'li',
                                     null,
-                                    '\'18 - Working on Open-Source (',
+                                    'Contributor of Node.js Open-Source (',
                                     _react2.default.createElement(
                                         'a',
                                         { href: 'https://github.com/sindresorhus/got', target: '_blank', className: 'about-me-content-link' },
@@ -24130,18 +24130,62 @@ var HeaderComponent = function (_React$Component) {
                                 _react2.default.createElement(
                                     'li',
                                     null,
-                                    '\'17 - Studied computer science (',
+                                    'Contributor of Open-Source (',
                                     _react2.default.createElement(
                                         'a',
-                                        { href: 'https://www.asu.edu/', target: '_blank', className: 'about-me-content-link' },
-                                        'ASU'
+                                        { href: 'https://github.com/Lancher/docker-ubuntu-vnc-desktop', target: '_blank', className: 'about-me-content-link' },
+                                        'docker-desktop'
                                     ),
                                     ')'
                                 ),
                                 _react2.default.createElement(
                                     'li',
                                     null,
-                                    '\'16 - Contributed to Open-Source (',
+                                    'Committer of Python Open-Source (',
+                                    _react2.default.createElement(
+                                        'a',
+                                        { href: 'https://github.com/Lancher/increasing', target: '_blank', className: 'about-me-content-link' },
+                                        'Increasing'
+                                    ),
+                                    ')'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    'React.js Blog (',
+                                    _react2.default.createElement(
+                                        'a',
+                                        { href: 'https://github.com/Lancher/blog', target: '_blank', className: 'about-me-content-link' },
+                                        'Blog'
+                                    ),
+                                    ')'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    'Prototype of Raft Consensus Algorithm (',
+                                    _react2.default.createElement(
+                                        'a',
+                                        { href: 'https://github.com/Lancher/raft', target: '_blank', className: 'about-me-content-link' },
+                                        'Raft'
+                                    ),
+                                    ')'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    'Taiwan Stock Crawler (',
+                                    _react2.default.createElement(
+                                        'a',
+                                        { href: 'https://github.com/Lancher/tw-stock', target: '_blank', className: 'about-me-content-link' },
+                                        'TW-Stock'
+                                    ),
+                                    ')'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    'Contributor of Python Open-Source (',
                                     _react2.default.createElement(
                                         'a',
                                         { href: 'https://github.com/tornadoweb/tornado', target: '_blank', className: 'about-me-content-link' },
@@ -24152,34 +24196,40 @@ var HeaderComponent = function (_React$Component) {
                                 _react2.default.createElement(
                                     'li',
                                     null,
-                                    '\'15 - Full-Stack engineer (',
+                                    'Comprehensive Cheatsheet (',
                                     _react2.default.createElement(
                                         'a',
-                                        { href: 'https://www.qnap.com', target: '_blank', className: 'about-me-content-link' },
-                                        'QNAP'
+                                        { href: 'https://github.com/Lancher/cheatsheet', target: '_blank', className: 'about-me-content-link' },
+                                        'Python/Java/Node.js'
                                     ),
                                     ')'
                                 ),
                                 _react2.default.createElement(
                                     'li',
                                     null,
-                                    '\'14 - Joined military service (',
+                                    'Linux Programming (',
                                     _react2.default.createElement(
                                         'a',
-                                        { href: 'https://www.klcg.gov.tw/en/Default/Index', target: '_blank', className: 'about-me-content-link' },
-                                        'Keelung'
+                                        { href: 'https://github.com/Lancher/linux-programming-examples', target: '_blank', className: 'about-me-content-link' },
+                                        'C System Calls'
                                     ),
                                     ')'
                                 ),
                                 _react2.default.createElement(
                                     'li',
                                     null,
-                                    '\'13 - Developed web for Capstone Project'
+                                    'Network Programming (',
+                                    _react2.default.createElement(
+                                        'a',
+                                        { href: 'https://github.com/Lancher/network-programming-examples', target: '_blank', className: 'about-me-content-link' },
+                                        'IPv4/IPv6/TCP'
+                                    ),
+                                    ')'
                                 ),
                                 _react2.default.createElement(
                                     'li',
                                     null,
-                                    '\'12 - Built independent iOS app (',
+                                    'iOS Independent App (',
                                     _react2.default.createElement(
                                         'a',
                                         { href: 'http://appcrawlr.com/ios/oilbox', target: '_blank', className: 'about-me-content-link' },
@@ -24190,27 +24240,11 @@ var HeaderComponent = function (_React$Component) {
                                 _react2.default.createElement(
                                     'li',
                                     null,
-                                    '\'11 - Designed processor simulator (',
+                                    'MIPs/ARM Processor Simulator (',
                                     _react2.default.createElement(
                                         'a',
                                         { href: 'https://github.com/Lancher/process-simulator', target: '_blank', className: 'about-me-content-link' },
-                                        'MIPS'
-                                    ),
-                                    ')'
-                                ),
-                                _react2.default.createElement(
-                                    'li',
-                                    null,
-                                    '\'10 - Congratulated my first terminal gaming app'
-                                ),
-                                _react2.default.createElement(
-                                    'li',
-                                    null,
-                                    '\'09 - Studied computer science (',
-                                    _react2.default.createElement(
-                                        'a',
-                                        { href: 'http://nthu-en.web.nthu.edu.tw/bin/home.php', target: '_blank', className: 'about-me-content-link' },
-                                        'NTHU'
+                                        'Simulator'
                                     ),
                                     ')'
                                 )
@@ -24357,7 +24391,7 @@ var FooterComponent = function (_React$Component) {
                 _react2.default.createElement(
                     'div',
                     { className: 'copyright' },
-                    'Copyright @ shihao-liu'
+                    'Copyright @ shihao-liu \xB7 Powered by React.js'
                 )
             );
         }

@@ -43,33 +43,41 @@ export default class HeaderComponent extends React.Component {
                         </div>
                         <div className="about-me-content">
                             <ul className="about-me-content-text-1">
-                                <li>'18 - Working on Open-Source (
+                                <li>Contributor of Node.js Open-Source (
                                     <a href="https://github.com/sindresorhus/got" target="_blank" className="about-me-content-link">Got</a>)
                                 </li>
-                                <li>'17 - Studied computer science (
-                                    <a href="https://www.asu.edu/" target="_blank" className="about-me-content-link">ASU</a>)
+                                <li>Contributor of Open-Source (
+                                    <a href="https://github.com/Lancher/docker-ubuntu-vnc-desktop" target="_blank" className="about-me-content-link">docker-desktop</a>)
                                 </li>
-                                <li>'16 - Contributed to Open-Source (
+                                <li>Committer of Python Open-Source (
+                                    <a href="https://github.com/Lancher/increasing" target="_blank" className="about-me-content-link">Increasing</a>)
+                                </li>
+                                <li>React.js Blog (
+                                    <a href="https://github.com/Lancher/blog" target="_blank" className="about-me-content-link">Blog</a>)
+                                </li>
+                                <li>Prototype of Raft Consensus Algorithm (
+                                    <a href="https://github.com/Lancher/raft" target="_blank" className="about-me-content-link">Raft</a>)
+                                </li>
+                                <li>Taiwan Stock Crawler (
+                                    <a href="https://github.com/Lancher/tw-stock" target="_blank" className="about-me-content-link">TW-Stock</a>)
+                                </li>
+                                <li>Contributor of Python Open-Source (
                                     <a href="https://github.com/tornadoweb/tornado" target="_blank" className="about-me-content-link">Tornado</a>)
                                 </li>
-                                <li>'15 - Full-Stack engineer (
-                                    <a href="https://www.qnap.com" target="_blank" className="about-me-content-link">QNAP</a>)
+                                <li>Comprehensive Cheatsheet (
+                                    <a href="https://github.com/Lancher/cheatsheet" target="_blank" className="about-me-content-link">Python/Java/Node.js</a>)
                                 </li>
-                                <li>'14 - Joined military service (
-                                    <a href="https://www.klcg.gov.tw/en/Default/Index" target="_blank" className="about-me-content-link">Keelung</a>)
+                                <li>Linux Programming (
+                                    <a href="https://github.com/Lancher/linux-programming-examples" target="_blank" className="about-me-content-link">C System Calls</a>)
                                 </li>
-                                <li>'13 - Developed web for Capstone Project
+                                <li>Network Programming (
+                                    <a href="https://github.com/Lancher/network-programming-examples" target="_blank" className="about-me-content-link">IPv4/IPv6/TCP</a>)
                                 </li>
-                                <li>'12 - Built independent iOS app (
+                                <li>iOS Independent App (
                                     <a href="http://appcrawlr.com/ios/oilbox" target="_blank" className="about-me-content-link">OilBox</a>)
                                 </li>
-                                <li>'11 - Designed processor simulator (
-                                    <a href="https://github.com/Lancher/process-simulator" target="_blank" className="about-me-content-link">MIPS</a>)
-                                </li>
-                                <li>'10 - Congratulated my first terminal gaming app
-                                </li>
-                                <li>'09 - Studied computer science (
-                                    <a href="http://nthu-en.web.nthu.edu.tw/bin/home.php" target="_blank" className="about-me-content-link">NTHU</a>)
+                                <li>MIPs/ARM Processor Simulator (
+                                    <a href="https://github.com/Lancher/process-simulator" target="_blank" className="about-me-content-link">Simulator</a>)
                                 </li>
                             </ul>
                         </div>

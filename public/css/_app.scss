@@ -1,9 +1,10 @@
-
+@import "animation";
 
 .app_wrapper {
   width: 100vw;
   height: 50vh;
   background-image: radial-gradient(farthest-corner at -10% 10%,#CF62C0 5%,#4164b2 100%);
+  @include fadein(1s);
 }
 
 
